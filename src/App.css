@@ -1,0 +1,113 @@
+.shyam:hover {
+  background-color: #8751bd !important;
+}
+
+.tanvi:hover {
+  color: #2859b6 !important;
+}
+
+.savi:hover {
+  color: #8751bd !important;
+}
+
+::placeholder {
+  color: #2859b6 !important;
+}
+
+.disha:hover {
+  border: 3px #2859b6 solid !important;
+  border-width: 0 0 3px 0 !important;
+}
+
+.hit:hover {
+  border: 1px #2859b6 solid !important;
+  border-width: 0 0 2px 0 !important;
+}
+
+
+.waviy {
+  position: relative;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  color: #2859b6 !important;
+  animation: flip 5s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+  0%,
+  80% {
+    transform: rotateY(360deg)
+  }
+}
+
+/* lineup class and keyframes */
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.flipY {
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-15deg);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(-10deg);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+
